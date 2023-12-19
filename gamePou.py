@@ -1,4 +1,5 @@
 import random
+import time
 
 #hunger = [0,1,2,3,4,5,6,7,8,9,10]
 #energy = [0,1,2,3,4,5,6,7,8,9,10]
@@ -123,7 +124,11 @@ class Pou:
 
         
         print(self.status)
+
+    def aging(self):
+        self.age +=1
     
+      
 
         
     def status(self):
@@ -146,6 +151,13 @@ print()
 
 
 while True:
+    Pou.aging()
+    if Pou.age >= 10 or Pou.hunger == 0 or Pou.health == 0:
+        print(f"{Pou.name} has died!")
+        print( "\n X ᴥ Xʔ   R.I.P. \n")
+        break
+
+
     print("What do you want to do?")
     print("=======================")
     print("     1. Eat")
@@ -174,3 +186,5 @@ while True:
         print("What do you want to do?")
         print("\n")
         print("\n")
+
+    time.sleep(1)
