@@ -167,6 +167,8 @@ while True:
     print("     5. Socialize")
     print("     6. Show status")
     print("     7. Exit")
+    print("\n")
+    print("\n")
     option = input()
     if option == "1":
         coco.eat()
