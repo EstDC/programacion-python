@@ -153,8 +153,8 @@ print()
 while True:
     coco.aging()
     if coco.age >= 10 or coco.hunger <= 0 and coco.health <= 0:
-        print(f"{coco.name} has died!")
-        print( "\n X ᴥ Xʔ   R.I.P. \n")
+        print(f"\n{coco.name} has died!")
+        print( "\n X ᴥ Xʔ   R.I.P. \n\n")
         break
 
 
