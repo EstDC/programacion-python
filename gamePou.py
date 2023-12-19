@@ -141,7 +141,7 @@ class Pou:
         }
 
 
-coco = Pou("coco",random.randint(1,3), random.randint(0,10), random.randint(0,10), random.randint(0,10),random.randint(0,10),random.randint(0,10), random.randint(0,10))
+coco = Pou("coco",random.randint(1,3), random.randint(0,10), random.randint(0,10), random.randint(0,10),random.randint(0,10),random.randint(0,10), random.randint(0,10), random.randint(0,10))
 print()
 
 
