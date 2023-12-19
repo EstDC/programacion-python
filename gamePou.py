@@ -127,8 +127,6 @@ class Pou:
 
     def aging(self):
         self.age +=1
-    
-      
 
         
     def status(self):
